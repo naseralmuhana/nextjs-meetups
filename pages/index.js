@@ -27,7 +27,7 @@ export const getStaticProps = async () => {
   meetups = JSON.parse(JSON.stringify(meetups))
   client.close()
 
-  return { props: { meetups } }
+  return { props: { meetups }, revalidate: 1 }
 }
 
 export default HomePage
