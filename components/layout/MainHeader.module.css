@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #77002e;
+  color: #fff;
+  padding: 0 10%;
+  height: 5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  align-items: baseline;
+}
+
+.header ul li {
+  margin-left: 3rem;
+}
+
+.header ul a {
+  font-size: 1.5rem;
+  color: #fcb8d2;
+}
+
+.header ul a:hover,
+.header ul a:active {
+  color: #fff;
+}

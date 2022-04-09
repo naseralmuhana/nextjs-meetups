@@ -1,0 +1,15 @@
+.detail {
+  text-align: center;
+}
+.detail img {
+  width: 100%;
+}
+
+.detail h3 {
+  font-size: 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.detail p {
+  margin: 1rem 0;
+}
